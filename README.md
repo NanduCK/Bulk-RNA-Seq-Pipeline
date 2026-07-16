@@ -11,8 +11,8 @@ Additionally, the Bulk_RNASeq_Smad4_Eomes_axis.R file contains the code initiall
 The project is organised to ensure reproducibility across different machines using the `here` package. 
 
 ```text
-├── README.md                           # Project overview and instructions
-├── scripts/                            # R pipeline modules
+├── README.md                          # Project overview and instructions
+├── scripts/                           # R pipeline modules
    ├── 01_process_counts.R             # Data ingestion and metadata generation
    ├── 02_run_deseq2.R                 # Differential expression and ID mapping
    ├── 03_gsea_analysis.R              # External data integration and visualisation
