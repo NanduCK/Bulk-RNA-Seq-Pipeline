@@ -13,17 +13,9 @@ The project is organised to ensure reproducibility across different machines usi
 ```text
 ├── README.md                           # Project overview and instructions
 ├── scripts/                            # R pipeline modules
-│   ├── 01_process_counts.R             # Data ingestion and metadata generation
-│   ├── 02_run_deseq2.R                 # Differential expression and ID mapping
-│   ├── 03_gsea_analysis.R              # External data integration and visualisation
-│   └──Bulk_RNASeq_Smad4_Eomes_axis.R   # Initial Pipeline 
-├── data/                               # Ignored in version control (.gitignore)
-│   ├── raw_data/                       # Raw .counts files and shared_genes.csv
-│   ├── external/                       # Downloaded tarballs (GSE39152, GSE70813)
-│   └── processed/                      # Intermediate .rds objects
-└── results/                            # Output directory for analysis
-    ├── GSEA_input/                     # Ranked gene lists (.rnk)
-    ├── figures/                        # High-resolution PNG plots
-    └── tables/                         # Statistical reports and .gmt files
+   ├── 01_process_counts.R             # Data ingestion and metadata generation
+   ├── 02_run_deseq2.R                 # Differential expression and ID mapping
+   ├── 03_gsea_analysis.R              # External data integration and visualisation
+   └──Bulk_RNASeq_Smad4_Eomes_axis.R   # Initial Pipeline 
 
 ```
